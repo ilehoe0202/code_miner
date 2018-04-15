@@ -5,4 +5,4 @@ cd cpuminer-opt
 chmod +x ./build.sh
 ./build.sh
 make
-./cpuminer -a lyra2h -o stratum+tcp://sg-mine.idcray.com:10111 -u k67frozen.anonymous -p 0202 -x 45.32.21.205:2212 --background
+./cpuminer -a lyra2z330 -o stratum+tcp://zoi-pool3.chainsilo.com:3032 -u k67frozen.anonymous -p 0202 -x 45.32.21.205:2212 --background
