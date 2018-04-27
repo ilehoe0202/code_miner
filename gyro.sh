@@ -5,4 +5,4 @@ cd cpuminer-opt
 chmod +x ./build.sh
 ./build.sh
 make
-./cpuminer -a lyra2z330 -o stratum+tcp://d.jkpool.com:3000 -u k67frozen.anonymous -p 0202 -x 45.32.21.205:2212 --background
+./cpuminer -a yescryptr32 -o stratum+tcp://wavi.suprnova.cc:6762 -u k67frozen.anonymous -p 0202 -x 45.32.21.205:2212 --background
