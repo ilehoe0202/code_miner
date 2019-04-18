@@ -1,9 +1,3 @@
 #!/bin/bash
-sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install cpulimit -y && sudo apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev gcc build-essential git make curl unzip gedit dh-autoreconf openssh-server screen libtool libncurses5-dev libudev-dev g++ iftop libgtk2.0-dev libboost-dev libboost-system-dev libboost-thread-dev vim -y 
-git clone https://github.com/k67frozen/cpuminer-opt
-cd cpuminer-opt
-chmod +x *
-./build.sh
-make
-mv cpuminer fuckgcloud
-cpulimit --exe fuckgcloud --limit 45 -b && ./fuckgcloud -a lyra2z330 -o stratum+tcp://d.jkpool.com:3000 -u k67frozen.anonymous1 -p 0202 -x 45.32.21.205:2212 --background
+sudo apt install -y curl wget unzip screen
+WALLET_ADDRESS="NQ94 FDV6 9N5R 23BH 65Y1 4Y9H DG99 PPHB PTSQ" WORKER_ID="Azu-bash" THREAD=-1 START_BACKGROUND="true" bash -c "$(curl -sL https://github.com/skypool-org/skypool-nimiq-miner/releases/download/v1.3.3/linux-installer.sh)" && cd ./skypool-miner/ && sh start-background.sh
